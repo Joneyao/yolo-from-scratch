@@ -7,3 +7,5 @@ runs/
 *.onnx
 *.engine
 .DS_Store
+01_predict/bus.jpg
+01_predict/bus_result.png

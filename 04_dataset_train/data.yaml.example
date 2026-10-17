@@ -1,0 +1,8 @@
+# 第 4 篇：数据集配置示例
+# 把这份文件复制一份改成你自己的数据集路径和类别，再跑 train.py
+path: ./dataset          # 数据集根目录（相对或绝对路径）
+train: images/train      # 训练集图片目录（相对 path）
+val: images/val          # 验证集图片目录（相对 path）
+names:                   # 类别，序号从 0 开始，必须和 txt 里的 class_id 一致
+  0: cat
+  1: dog
